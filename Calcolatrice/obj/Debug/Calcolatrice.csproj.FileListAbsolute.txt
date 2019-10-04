@@ -1,0 +1,6 @@
+C:\Users\CORSO 44\Downloads\esercizi\Calcolatrice\Calcolatrice\obj\Debug\Calcolatrice.csprojAssemblyReference.cache
+C:\Users\CORSO 44\Downloads\esercizi\Calcolatrice\Calcolatrice\bin\Debug\Calcolatrice.exe.config
+C:\Users\CORSO 44\Downloads\esercizi\Calcolatrice\Calcolatrice\bin\Debug\Calcolatrice.exe
+C:\Users\CORSO 44\Downloads\esercizi\Calcolatrice\Calcolatrice\bin\Debug\Calcolatrice.pdb
+C:\Users\CORSO 44\Downloads\esercizi\Calcolatrice\Calcolatrice\obj\Debug\Calcolatrice.exe
+C:\Users\CORSO 44\Downloads\esercizi\Calcolatrice\Calcolatrice\obj\Debug\Calcolatrice.pdb
