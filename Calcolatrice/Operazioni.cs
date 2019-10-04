@@ -20,13 +20,12 @@ namespace Calcolatrice
             /* this.NumElementi = nElementi;
              this.Cifre1 = cifre;*/
             this.Operando = operando;
-
-
         }
 
-        private int Somma(Operazione addizione)
+        public int Somma(Operazione addizione)
         {
             addizione = new Operazione(TipoOperazione.Addizione);
+            addizione.
         }
 
         private int Differenza(Operazione sottrazione)

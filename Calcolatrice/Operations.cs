@@ -10,7 +10,6 @@ namespace Operazioni
     {
         public static int Add(int quantita)
         {
-            
             int[] valori = new int[quantita];
             int ris = 0;
             for (int t = 0; t < quantita; t++)
