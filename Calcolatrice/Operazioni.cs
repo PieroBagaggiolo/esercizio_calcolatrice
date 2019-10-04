@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿//Trasformare classi statiche in classi istanziabili
 namespace Calcolatrice
 {
     enum TipoOperazione
@@ -16,12 +11,37 @@ namespace Calcolatrice
     class Operazione
     {
         private int NumElementi { get; set; }
-        TipoOperazione operazione;
-        private int[] Cifre = new int[];
+        private int risultato { get; set; };
+        TipoOperazione Operando { get; set; }
+        
 
-        public Operazione()
+        public Operazione(TipoOperazione operando)
         {
+            /* this.NumElementi = nElementi;
+             this.Cifre1 = cifre;*/
+            this.Operando = operando;
+
 
         }
+
+        private int Somma(Operazione addizione)
+        {
+            addizione = new Operazione(TipoOperazione.Addizione);
+        }
+
+        private int Differenza(Operazione sottrazione)
+        {
+            sottrazione = new Operazione(TipoOperazione.Sottrazione);
+        }
+        private int Prodotto(Operazione moltiplicazione)
+        {
+            moltiplicazione = new Operazione(TipoOperazione.Moltiplicazione);
+        }
+        private int Quota(Operazione divisione)
+        {
+            divisione = new Operazione(TipoOperazione.Divisione);
+        }
+
+
     }
 }
