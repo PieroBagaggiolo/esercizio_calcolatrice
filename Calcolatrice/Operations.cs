@@ -6,6 +6,25 @@ using System.Threading.Tasks;
 
 namespace Operazioni
 {
+    enum TipoOperazione
+    {
+        Addizione,
+        Sottrazione,
+        Moltiplicazione,
+        Divisione
+    }
+    class Operazione
+    {
+        private int NumElementi { get; set; }
+        private int[] Cifre = new int[];
+        TipoOperazione operazione;
+    }
+
+    public Somma()
+    {
+        
+    }
+
     public static class Calculator
     {
         public static int Add(int quantita)
@@ -42,7 +61,6 @@ namespace Operazioni
         }
         public static int Prod(int quantita)
         {
-
             int[] valori = new int[quantita];
             int prod = 0;
             for (int t = 0; t < quantita; t++)
