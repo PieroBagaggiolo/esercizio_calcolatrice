@@ -18,5 +18,10 @@ namespace Calcolatrice
         private int NumElementi { get; set; }
         TipoOperazione operazione;
         private int[] Cifre = new int[];
+
+        public Operazione()
+        {
+
+        }
     }
 }
